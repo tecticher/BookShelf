@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BookShelf.iml" filepath="$PROJECT_DIR$/BookShelf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inventory-api/inventory-api.iml" filepath="$PROJECT_DIR$/inventory-api/inventory-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inventory-api-impl-mock/inventory-api-impl-mock.iml" filepath="$PROJECT_DIR$/inventory-api-impl-mock/inventory-api-impl-mock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-tui/service-tui.iml" filepath="$PROJECT_DIR$/service-tui/service-tui.iml" />
+    </modules>
+  </component>
+</project>
