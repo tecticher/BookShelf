@@ -4,7 +4,6 @@
     <facet type="Osmorc" name="OSGi">
       <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="bookshelf.tui-1.0.0.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="bookshelf.tui.activator.BookshelfTuiActivator" bundleSymbolicName="bookshelf.tui" bundleVersion="1.0.0" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
         <additionalProperties>
-          <property key="Bundle-Description" value="Bookshelf text user interface" />
           <property key="Bundle-Category" value="sample" />
           <property key="Export-Package" value="bookshelf.tui" />
           <property key="Private-Package" value="bookshelf.tui.activator" />
@@ -28,8 +27,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="org.osgi.core-4.3.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.felix:org.apache.felix.gogo.runtime:0.16.2" level="project" />
-    <orderEntry type="library" name="Maven: org.osgi:org.osgi.core:4.3.1" level="project" />
     <orderEntry type="module" module-name="service" />
-    <orderEntry type="module" module-name="inventory-api" />
   </component>
 </module>
