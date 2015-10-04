@@ -2,12 +2,8 @@
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="Osmorc" name="OSGi">
-      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="bookshelf.service-1.0.0.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="bookshelf.service.api.impl.activator.BookshelfServiceImplActivator" bundleSymbolicName="bookshelf.service" bundleVersion="1.0.0" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
-        <additionalProperties>
-          <property key="Bundle-Category" value="sample" />
-          <property key="Export-Package" value="bookshelf.service.api" />
-          <property key="Bundle-Name" value="Bookshelf Inventory Service" />
-        </additionalProperties>
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="service-fxgui.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="" bundleVersion="1.0.0" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties />
         <additionalJARContents />
       </configuration>
     </facet>
@@ -23,6 +19,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="org.osgi.core-4.3.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="org.osgi.core-4.3.1" level="project" />
   </component>
 </module>
