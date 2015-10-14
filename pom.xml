@@ -18,6 +18,7 @@
         <module>service</module>
         <module>service-tui</module>
         <module>service-fxgui</module>
+        <module>inventory-api-impl-jaxb</module>
     </modules>
 
 

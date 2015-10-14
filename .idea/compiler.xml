@@ -57,7 +57,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="service" />
+        <module name="inventory-api-impl-jaxb" />
         <module name="service-fxgui" />
       </profile>
       <profile default="false" name="Annotation profile for inventory-api-impl-mock" enabled="true">
@@ -67,6 +67,13 @@
         <processorPath useClasspath="true" />
         <module name="inventory-api-impl-mock" />
       </profile>
+      <profile default="false" name="Annotation profile for service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="service" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="BookShelf" target="1.5" />
@@ -74,8 +81,9 @@
       <module name="bookshelf.inventory.api" target="1.7" />
       <module name="impl.mock" target="1.7" />
       <module name="inventory-api" target="1.7" />
+      <module name="inventory-api-impl-jaxb" target="1.5" />
       <module name="inventory-api-impl-mock" target="1.7" />
-      <module name="service" target="1.5" />
+      <module name="service" target="1.7" />
       <module name="service-fxgui" target="1.5" />
       <module name="service-tui" target="1.7" />
       <module name="tui" target="1.7" />

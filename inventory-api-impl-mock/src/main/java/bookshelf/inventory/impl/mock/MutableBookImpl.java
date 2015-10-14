@@ -2,9 +2,6 @@ package bookshelf.inventory.impl.mock;
 
 import bookshelf.inventory.api.MutableBook;
 
-/**
- * Created by Administrador on 29/08/2015.
- */
 public class MutableBookImpl implements MutableBook {
 
     private String isbn;

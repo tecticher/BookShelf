@@ -5,7 +5,7 @@ import bookshelf.inventory.api.*;
 import java.util.Set;
 
 /**
- * Created by Administrador on 29/08/2015.
+ *
  */
 public interface BookshelfService extends Authentication {
 
