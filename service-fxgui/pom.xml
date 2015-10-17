@@ -9,8 +9,21 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>inventory-fxgui</artifactId>
+    <artifactId>service-fxgui</artifactId>
     <version>1.0.0</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>bookshelf</groupId>
+            <artifactId>bookshelf.inventory.api</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>bookshelf</groupId>
+            <artifactId>bookshelf.service</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
